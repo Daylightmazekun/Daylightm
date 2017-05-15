@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class Dbutil {
 	
-	String url = "jdbc:mysql://localhost:3306/root" + "user=root&password=misakamikoto&useUnicode=true&characterEncoding=UTF8";
+	String url = "jdbc:mysql://localhost:3306/test?user=root&password=misakamikoto&useUnicode=true&characterEncoding=UTF8";
 
 	private String jdbcName = "com.mysql.jdbc.Driver";
 	
@@ -25,6 +25,7 @@ public class Dbutil {
 		Dbutil dbutil = new Dbutil();
 		try {
 			dbutil.getCon();
+			//System.out.println("Git");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
