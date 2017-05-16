@@ -13,11 +13,11 @@ public class UserAdd {
 	private String sex;
 	private String qq;
 	private String phone;
-	private String adress;
+	private String address;
 	
 	public UserAdd(){}
 	
-    public UserAdd(String school_num, String name, String grade, String school, String major, String email, String password, String role, String sex, String qq, String phone, String adress) {
+    public UserAdd(String school_num, String name, String grade, String school, String major, String email, String password, String role, String sex, String qq, String phone, String address) {
         this.school_num = school_num;
         this.name = name;
         this.grade = grade;
@@ -29,7 +29,7 @@ public class UserAdd {
         this.sex = sex;
         this.qq = qq;
         this.phone = phone;
-        this.adress = adress;
+        this.address = address;
     }
 
 	public String getSchool_num() {
@@ -76,8 +76,8 @@ public class UserAdd {
 		return phone;
 	}
 
-	public String getAdress() {
-		return adress;
+	public String getAddress() {
+		return address;
 	}
 
 	public void setSchool_num(String school_num) {
@@ -124,8 +124,8 @@ public class UserAdd {
 		this.phone = phone;
 	}
 
-	public void setAdress(String adress) {
-		this.adress = adress;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 }
