@@ -16,7 +16,7 @@ import com.nukezam.model.Notes;
 /**
  * Servlet implementation class NotesaddServlet
  */
-@WebServlet("/NotesaddServlet")
+@WebServlet(urlPatterns = "/notesadd", name = "notesadd")
 public class NotesaddServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     
